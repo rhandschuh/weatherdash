@@ -1,0 +1,46 @@
+body {
+    font-family: Georgia, serif;
+  }
+  
+  .heading {
+    background-color: blue;
+    color: #ffffff;
+    text-align: center;
+    padding: 12px;
+  }
+  
+  .forecast {
+    margin: 20px;
+}
+
+  input {
+    width: 80%;
+  }
+  
+  #city-list {
+    width: 20rem;
+  }
+  
+  #city-date-icon,
+  #city-name,
+  #current-icon {
+    flex-direction: row;  
+    display: flex;
+      justify-content: center/space-around/space-between;
+  }
+  
+  h6 {
+    font-weight: italic;
+  }
+  
+  h4 {
+      margin: 10px;
+  }
+  
+  #forecast-cards {
+      justify-content: center/space-between;
+      display: flex;
+      flex-direction: row;
+
+  }
+  
